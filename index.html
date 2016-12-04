@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Smash Bros Page</title>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="../css/display.css"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>POKEMON</title>
+    <link rel="stylesheet" media="screen" href="css/display.css" />
+  </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Super Smash Bros</a></li>
+    <header class="header" id="header">
+      <figure>
+        <img sizes="100vw"
+        src="images/banner.jpg" alt="banner" />
+        <figcaption>
+          <a class ="url" href ="http://static.tumblr.com/5471502cc75f1e841a54ccfc01874613/zpp4ct6/mTGmk3w2t/tumblr_static_cropped-pokemon-pikachu-banner.jpg">Source</a>
+        </figcaption>
+      </figure>
+    </header>
 
-      </ul>
-    </nav>
 
-  <h1>Super Smash Bros</h1>
+    <section id="pokemon-num">
+    <h1>Learn anything and everything about Pokemon with a click of a button!</h1>
+      <form id="poke-form" name="poke-form" method="get" action="#null">
+        <label for="num">Enter a number to see some stats and facts on that pokemon:</label>
+        <input id="num" type="text" name="num" />
+        <input id="poke-submit" type="submit" name="poke-submit" value="Submit" />
+      </form>
+    </section>
 
-  <section>
-    <h2>Game History</h2>
-      <p>
+    <section id="pokemon">
+    <h2> The Pokemon's name: </h2>
+      <p id="pokename"></p>
+    </section>
 
-      </p>
-  </section>
+    <section id="pokemonevo">
+    <h2> The pokemon is evolves into: </h2>
+      <p id="pokeevo"></p>
+    </section>
 
-  <h2>Smash Video</h2>
-    <video controls="controls">
-        <source src="../video/" type="video/mp4" />
-    </video>
+    <section id="pokemontype">
+    <h2> This pokemon's type(s) are: </h2>
+      <p id="poketype"></p>
+    </section>
 
-  <section>
-    <h2>Characters</h2>
-    <ul>
-      <li>Mario</li>
-      <li>Pikachu</li>
-      <li>Link</li>
-      <li>Peach</li>
+    <section id="pokemonsprite">
+      <p id="pokesprite"></p>
+    </section>
 
-  </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="site.js"></script>
 
-  <section>
-    <h4>Smash Club</h4>
-    <p>
-        I am in one of the cofounders of Smash Club at IIT. A group of friends and
-      I started to play Smash Bros with each other, then one day we were offered by
-      Union Board an opportunity to host a Smash Tournament
-    </p>
-  </section>
-
-  <footer>
-    <p>
-      Site Designed by Joseph Saldivar, Scott Rigg, Stephen Grzenia
-    </p>
-  </footer>
+    <footer>
+      <p> Site Designed by Joseph Saldivar, Scott Rigg, Stephen Grzenia </p>
+    </footer>
   </body>
 </html>
