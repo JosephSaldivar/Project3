@@ -12,18 +12,19 @@ $.noConflict();
 
             if (data != null) {
            var name = data.name;
-           var ability = data.abilities[0];
+           //var ability = data.abilities[0];
            var evo = data.evolutions[0].to;
            var sprite = data.sprites[0].name;
            //var type1 = data.types[0].name;
            //var type2 = data.types[1].name;
            var types = "";
-           for (var i = 0; i < data.types.length; i++)
+           /*for (var i = 0; i < data.types.length; i++)
            {
              var type_to_add = (data.types[i].name);
              type_to_add=type_to_add.charAt(0).toUpperCase()+type_to_add.slice(1, (type_to_add.length));
-             types+= type_to_add + "";
-           }
+             types+= type_to_add + " ";
+           }*/
+           var abilities = data.abilities.join(", ");
  };
 
  var pokename = name;
@@ -39,15 +40,15 @@ $.noConflict();
  $('#poketype').text(poketype);
 
 
- var url = 'http://pokeapi.co/api/v1/sprite/' + (num + 1);
- $.get(url).done(
-   function(data,json) {
+  var url = 'http://pokeapi.co/api/v1/sprite/' + (num + 1);
+  $.get(url).done(
+  function(data,json) {
 
-     if (data != null) {
-    var sprite = data.image;
+    if (data != null) {
+      var sprite = data.image;
 
   };
-
+  
   var pokesprite = sprite;
   $('#pokesprite').text(pokesprite);
 
