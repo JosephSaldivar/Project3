@@ -46,6 +46,16 @@ footer {
   padding: .5em .2em;
 }
 
+#pokemonheight{
+  background-color: #FFD700;
+  padding: .5em .2em;
+}
+
+#pokemonweight{
+  background-color: #FFD700;
+  padding: .5em .2em;
+}
+
 #pokemontype{
   background-color: #FFD700;
   padding: .5em .2em;
@@ -75,6 +85,19 @@ footer {
  padding-top: .5em;
  padding-bottom: .2em;
 }
+
+#pokeheight{
+  color: #ff1a1a;
+  padding-top: .5em;
+  padding-bottom: .2em;
+}
+
+#pokeweight{
+  color: #ff1a1a;
+  padding-top: .5em;
+  padding-bottom: .2em;
+}
+
 img {
   display: block;
   max-width: 100%;
