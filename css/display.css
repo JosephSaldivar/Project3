@@ -62,3 +62,20 @@ footer {
  padding-top: .5em;
  padding-bottom: .2em;
 }
+
+/*Largest Phone - Largest Tablet*/
+@media screen and (min-width: 31.500em) /* pixel sizes*/
+  {
+    html {
+      font-size: 1em;
+    }
+
+  }
+
+  /*Smallest-largest Cell Phone*/
+  @media screen and (min-width: 20em)/* pixel sizes*/
+  {
+    html {
+      font-size: 0.833em;
+    }
+  }
