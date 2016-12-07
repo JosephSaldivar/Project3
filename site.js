@@ -10,7 +10,7 @@ $.noConflict();
         $.get(url).done(
           function(data,json) {
 
-            if (data != null) {
+            //if (data != null) {
 
            var name = data.name;
            var weight = data.weight;
@@ -35,7 +35,7 @@ $.noConflict();
            }
 
 
- };
+ //};
 
  //var pokename = name;
  $('#pokename').text(name);
@@ -50,8 +50,8 @@ $.noConflict();
  //var pokeability = abilities;
  $('#pokeability').text(abilities);
 
-  var url = 'http://pokeapi.co/api/v1/sprite/' + (num + 1);
-  $.get(url).done(
+  //var url = 'http://pokeapi.co/api/v1/sprite/' + (num + 1);
+  /*$.get(url).done(
   function(data,json) {
 
     if (data != null) {
@@ -63,8 +63,11 @@ $.noConflict();
   $('#pokesprite').text(pokesprite);
 
 
-      })
+      })*/
     }
     )
+    .fail(function(data,json) {
+      alert("Error, did not load data");
+    })
 })})})
 (jQuery);
