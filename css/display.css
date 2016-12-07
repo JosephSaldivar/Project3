@@ -15,6 +15,10 @@ body {
  padding: 0;
  background-color: #CBCFDB;
 }
+header {
+  background-color: #FFD700;
+  padding: .5em .2em;
+}
 h1 {
  font-size: 2em;
  line-height: 1.2em;
@@ -46,6 +50,10 @@ footer {
   background-color: #FFD700;
   padding: .5em .2em;
 }
+#pokemonability{
+  background-color: #FFD700;
+  padding: .5em .2em;
+}
 
 #pokename {
  color: #ff1a1a;
@@ -62,7 +70,11 @@ footer {
  padding-top: .5em;
  padding-bottom: .2em;
 }
-
+#pokeability {
+ color: #ff1a1a;
+ padding-top: .5em;
+ padding-bottom: .2em;
+}
 /*Largest Phone - Largest Tablet*/
 @media screen and (min-width: 31.500em) /* pixel sizes*/
   {
