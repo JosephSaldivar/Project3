@@ -75,6 +75,10 @@ footer {
  padding-top: .5em;
  padding-bottom: .2em;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 /*Largest Phone - Largest Tablet*/
 @media screen and (min-width: 31.500em) /* pixel sizes*/
   {
