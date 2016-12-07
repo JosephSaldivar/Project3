@@ -82,8 +82,70 @@ img {
 /*Largest Phone - Largest Tablet*/
 @media screen and (min-width: 31.500em) /* pixel sizes*/
   {
-    html {
-      font-size: 1em;
+    body {
+     font-size: .75em;
+     line-height: 1em;
+     height: 100%;
+     padding: 0;
+
+    }
+    header {
+
+      padding: .5em .2em;
+    }
+    h1 {
+     font-size: 1.25em;
+     line-height: 1.2em;
+     text-align: center;
+
+    }
+
+    footer {
+      margin-top: 35%;
+    }
+
+    #pokemon-num {
+     padding: .5em .2em;
+     text-align: center;
+    }
+
+    #pokemon {
+
+      padding: .5em .2em;
+    }
+
+    #pokemonevo{
+
+      padding: .5em .2em;
+    }
+
+    #pokemontype{
+
+      padding: .5em .2em;
+    }
+    #pokemonability{
+
+      padding: .5em .2em;
+    }
+
+    #pokename {
+     padding-top: .5em;
+     padding-bottom: .2em;
+    }
+    #pokeevo {
+
+      padding-top: .5em;
+      padding-bottom: .2em;
+    }
+    #poketype {
+
+     padding-top: .5em;
+     padding-bottom: .2em;
+    }
+    #pokeability {
+
+     padding-top: .5em;
+     padding-bottom: .2em;
     }
 
   }
@@ -91,7 +153,66 @@ img {
   /*Smallest-largest Cell Phone*/
   @media screen and (min-width: 20em)/* pixel sizes*/
   {
-    html {
-      font-size: 0.833em;
+    body {
+     font-size: 1em;
+     line-height: 1.2em;
+     height: 100%;
+     padding: 0;
+
+    }
+    header {
+      padding: .5em .2em;
+      display: block;
+      max-width: 100%;
+    }
+
+    h1 {
+     font-size: 2em;
+     line-height: 1.2em;
+     text-align: center;
+
+    }
+
+    footer {
+      margin-top: 35%;
+    }
+
+    #pokemon-num {
+     padding: .5em .2em;
+     text-align: center;
+    }
+
+    #pokemon {
+      padding: .5em .2em;
+    }
+
+    #pokemonevo{
+      padding: .5em .2em;
+    }
+
+    #pokemontype{
+      padding: .5em .2em;
+    }
+    #pokemonability{
+      padding: .5em .2em;
+    }
+
+    #pokename {
+     padding-top: .5em;
+     padding-bottom: .2em;
+    }
+    #pokeevo {
+      padding-top: .5em;
+      padding-bottom: .2em;
+    }
+    #poketype {
+
+     padding-top: .5em;
+     padding-bottom: .2em;
+    }
+    #pokeability {
+
+     padding-top: .5em;
+     padding-bottom: .2em;
     }
   }

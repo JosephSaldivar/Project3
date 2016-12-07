@@ -12,8 +12,8 @@ $.noConflict();
 
             if (data != null) {
            var name = data.name;
-           var evo = data.evolutions[0].to;
-           var sprite = data.sprites[0].name;
+           //var evo = data.evolutions[0].to;
+           //var sprite = data.sprites[0].name;
            var types = "";
            for (var i = 0; i < data.types.length; i++)
            {//iterate through the types array, if there is only one element, add it as the name.
@@ -30,22 +30,22 @@ $.noConflict();
              abiltoadd=abiltoadd.charAt(0).toUpperCase()+abiltoadd.slice(1, (abiltoadd.length));
              abilities= abilities+abiltoadd+" ";
            }
-           
-           
+
+
  };
 
- var pokename = name;
- $('#pokename').text(pokename);
+ //var pokename = name;
+ $('#pokename').text(name);
 
- var pokeevo = evo;
- $('#pokeevo').text(pokeevo);
+ //var pokeevo = evo;
+ //$('#pokeevo').text(pokeevo);
 
- var poketype = types;
- $('#poketype').text(poketype);
+ //var poketype = types;
+ $('#poketype').text(types);
 
- var pokeability = abilities;
- $('#pokeability').text(pokeability);
- 
+ //var pokeability = abilities;
+ $('#pokeability').text(abilities);
+
   var url = 'http://pokeapi.co/api/v1/sprite/' + (num + 1);
   $.get(url).done(
   function(data,json) {
@@ -54,7 +54,7 @@ $.noConflict();
       var sprite = data.image;
 
   };
-  
+
   var pokesprite = sprite;
   $('#pokesprite').text(pokesprite);
 
