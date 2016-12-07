@@ -1,4 +1,4 @@
-$.noConflict();
+ $.noConflict();
 (function($) {
   $(document).ready(
     function() {
