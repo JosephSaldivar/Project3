@@ -26,10 +26,10 @@ $.noConflict();
              types= types+ type_to_add + " ";
            }
            var abilities = "";
-           for (var i = 0; i<data.abilities.length;i++)
+           for (var j = 0; j<data.abilities.length;j++)
            {//iterate through the abilities array, if there is only one element, add it as the name.
             //if there is more than one name, it get's appended to the abilities string
-             var abiltoadd=(data.abilities[i].name);
+             var abiltoadd=(data.abilities[j].name);
              abiltoadd=abiltoadd.charAt(0).toUpperCase()+abiltoadd.slice(1, (abiltoadd.length));
              abilities= abilities+abiltoadd+" ";
            }
