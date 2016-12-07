@@ -44,7 +44,7 @@ $.noConflict();
 
   };
 
-  
+
   $('#pokesprite').text(pokesprite);
 
 
