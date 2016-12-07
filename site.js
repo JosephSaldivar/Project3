@@ -15,8 +15,15 @@ $.noConflict();
            var ability = data.abilities[0];
            var evo = data.evolutions[0].to;
            var sprite = data.sprites[0].name;
-           var type1 = data.types[0].name;
-           var type2 = data.types[1].name;
+           //var type1 = data.types[0].name;
+           //var type2 = data.types[1].name;
+           var types = "";
+           for (var i = 0; i < data.types.length; i++)
+           {
+             var type_to_add = (data.types[i].name);
+             type_to_add=type_to_add.charAt(0).toUpperCase()+type_to_add.slice(1, (type_to_add.length));
+             types+= type_to_add + "";
+           }
  };
 
  var pokename = name;
@@ -25,9 +32,10 @@ $.noConflict();
  var pokeevo = evo;
  $('#pokeevo').text(pokeevo);
 
- var poketype1 = type1;
- var poketype2 = type2;
- var poketype = type1 + ' and ' + type2;
+ //var poketype1 = type1;
+ //var poketype2 = type2;
+ //var poketype = type1 + ' and ' + type2;
+ var poketype = types;
  $('#poketype').text(poketype);
 
 
