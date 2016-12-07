@@ -11,7 +11,10 @@ $.noConflict();
           function(data,json) {
 
             if (data != null) {
+
            var name = data.name;
+           var weight = data.weight;
+           var height = data.height;
            //var evo = data.evolutions[0].to;
            //var sprite = data.sprites[0].name;
            var types = "";
@@ -36,7 +39,8 @@ $.noConflict();
 
  //var pokename = name;
  $('#pokename').text(name);
-
+ $('#pokeheight').text(height);
+ $('#pokeweight').text(weight);
  //var pokeevo = evo;
  //$('#pokeevo').text(pokeevo);
 
