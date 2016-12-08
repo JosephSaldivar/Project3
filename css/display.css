@@ -9,23 +9,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* 16px minor third */
 body {
- font-size: 0.75em;
- line-height: 1em;
- height: 100%;
- padding: 0;
- background-color: #CBCFDB;
+  font-size: 0.75em;
+  line-height: 1em;
+  height: 100%;
+  padding: 0;
+  background-color: #CBCFDB;
 }
 
 header {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
 
 h1 {
- font-size: 1.2em;
- line-height: 1.2em;
- text-align: center;
- color: #101861;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  text-align: center;
+  color: #101861;
 }
 
 footer {
@@ -33,71 +33,71 @@ footer {
 }
 
 #pokemon-num {
- background-color: #CBCFDB;
- padding: .5em .2em;
- text-align: center;
+  background-color: #CBCFDB;
+  padding: 0.5em 0.2em;
+  text-align: center;
 }
 
 #pokemon {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
 
-#pokemonevo{
+#pokemonevo {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
 
-#pokemonheight{
+#pokemonheight {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
 
-#pokemonweight{
+#pokemonweight {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
 
-#pokemontype{
+#pokemontype {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
-#pokemonability{
+#pokemonability {
   background-color: #FFD700;
-  padding: .5em .2em;
+  padding: 0.5em 0.2em;
 }
 
 #pokename {
- color: #ff1a1a;
- padding-top: .5em;
- padding-bottom: .2em;
+  color: #ff1a1a;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 #pokeevo {
   color: #ff1a1a;
-  padding-top: .5em;
-  padding-bottom: .2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 #poketype {
- color: #ff1a1a;
- padding-top: .5em;
- padding-bottom: .2em;
+  color: #ff1a1a;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 #pokeability {
- color: #ff1a1a;
- padding-top: .5em;
- padding-bottom: .2em;
+  color: #ff1a1a;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 
-#pokeheight{
+#pokeheight {
   color: #ff1a1a;
-  padding-top: .5em;
-  padding-bottom: .2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 
-#pokeweight{
+#pokeweight {
   color: #ff1a1a;
-  padding-top: .5em;
-  padding-bottom: .2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.2em;
 }
 
 img {
@@ -105,43 +105,43 @@ img {
   max-width: 100%;
 }
 /*Largest Phone - Largest Tablet*/
-@media screen and (min-width: 31.500em)
-  {
+@media screen and (min-width: 31.5em) {
+
   body {
-   font-size: 1.25em;
-   line-height: 1.222em;
+    font-size: 1.25em;
+    line-height: 1.222em;
   }
 
-    header {
-      padding: .5em .2em;
-    }
-
-    h1 {
-     font-size: 2em;
-     line-height: 1.2em;
-    }
-
+  header {
+    padding: 0.5em 0.2em;
   }
 
-  /*Smallest-largest Cell Phone*/
-  @media screen and (min-width: 20em)
-  {
-    body {
-     font-size: 1em;
-     line-height: 1.222em;
-     padding: 0;
-
-    }
-    header {
-      padding: .5em .2em;
-      display: block;
-      max-width: 100%;
-    }
-
-    h1 {
-     font-size: 2em;
-     line-height: 1.2em;
-     text-align: center;
-    }
-
+  h1 {
+    font-size: 2em;
+    line-height: 1.2em;
   }
+
+}
+
+/*Smallest-largest Cell Phone*/
+@media screen and (min-width: 20em) {
+
+  body {
+    font-size: 1em;
+    line-height: 1.222em;
+    padding: 0;
+  }
+
+  header {
+    padding: 0.5em 0.2em;
+    display: block;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    text-align: center;
+  }
+
+}
